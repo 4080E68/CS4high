@@ -1,0 +1,32 @@
+<!123 html>
+<html>
+<head>?
+<meta?charset="utf-8">?
+<title>1005偉大的恩師</title>?
+</head>
+<body>
+<p id="demo">點我獲取位置
+：</p>
+<button onclick="getLocation()">點我</button>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+{
+	if (navigator.geolocation)
+	{
+		navigator.geolocation.getCurrentPosition(showPosition);
+	}
+	else
+	{
+		x.innerHTML="???器不支持?取地理位置。";
+	}
+}
+
+function showPosition(position)
+{
+	x.innerHTML="緯度: " + position.coords.latitude + 
+	"<br>經度: " + position.coords.longitude;	
+}
+</script>
+</body>
+</html>
