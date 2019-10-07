@@ -1,0 +1,6 @@
+lab@29d4cf5af0ab:~$ ls --help
+Usage(用法): ls [OPTION](選項)... [FILE](文件)...
+List information about the FILEs(列出有關FILE的信息) (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
