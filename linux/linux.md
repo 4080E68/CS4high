@@ -19,6 +19,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  (2)mtu 1500
         TX packets 5325  bytes 328516 (320.8 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
+```
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
@@ -27,6 +28,6 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 22  bytes 1194 (1.1 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-```
+```        
 root@kali:~# ^C
-```
+
